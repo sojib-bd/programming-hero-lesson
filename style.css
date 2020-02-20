@@ -36,6 +36,32 @@ body {
   margin-left: -20px;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #f1935c;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.dropdown-content a {
+  display: block;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 .first-section {
   color: white;
   margin-left: 40px;

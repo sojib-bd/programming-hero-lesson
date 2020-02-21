@@ -17,13 +17,13 @@
       <ul>
         <li>
           <div class="dropdown">
-            <span>CSS Module</span>
+            <span class="content_1">HTML & CSS Module</span>
 
             <div class="dropdown-content">
-              <a href="#">Semantic Tag</a>
-              <a href="#">Blog Tag</a>
-              <a href="#">Inline Element</a>
-              <a href="#">Box Model</a>
+              <a href="#semantic">Semantic Tag</a>
+              <a href="#blog">Blog Tag</a>
+              <a href="#inline">Inline Element</a>
+              <a href="#box-model">Box Model</a>
               <a href="#">CSS Inline style</a>
               <a href="#">CSS Padding</a>
             </div>
@@ -33,12 +33,12 @@
     </div>
     <div class="main">
       <div class="first-section">
-        <h3>Semantic Tag</h3>
+        <h3 id="semantic">Semantic Tag</h3>
         <p>
           The tag that we can identify with their name or tag.Some of the
           semantic tags are given below:
         </p>
-        <ul>
+        <ul class="semantic-tag-name">
           <li>article tag</li>
           <li>header tag</li>
           <li>footer tag</li>
@@ -49,7 +49,7 @@
           <li>details tag</li>
         </ul>
 
-        <h5>
+        <p>
           There are other semantic tags. If you want to know about all the
           semantic you can visit
           <a
@@ -57,15 +57,15 @@
             target="_blank"
             >SEMANTIC TAG</a
           >
-        </h5>
+        </p>
       </div>
       <div class="second-section">
-        <h3>Blog Tag</h3>
+        <h3 id="blog">Blog Tag</h3>
         <p>
           The tag which create a seperate line is known as Blog tag. Some blog
           tags are given below:
         </p>
-        <ul>
+        <ul class="blog-tag-name">
           <li>paragraph tag</li>
           <li>h1-h6 tags</li>
           <li>div tag</li>
@@ -73,12 +73,39 @@
         </ul>
       </div>
       <div class="third-section">
-        <h3>Inline Element</h3>
+        <h3 id="inline">Inline Element</h3>
         <p>
           An inline element does not start on a new line and only takes up as
           much width as necessary.
         </p>
         <img src="images/inline-element.JPG" />
+      </div>
+      <div class="fourth-section">
+        <h3 id="box-model">CSS Box Model</h3>
+        <p>
+          All HTML elements can be considered as boxes. In CSS, the term "box
+          model" is used when talking about design and layout. The CSS box model
+          is essentially a box that wraps around every HTML element. It consists
+          of: margins, borders, padding, and the actual content.
+        </p>
+        <img src="images/box-model.JPG" />
+        <p>Explanation of the different parts:</p>
+        <ul>
+          <li>
+            Content - The content of the box, where text and images appear
+          </li>
+          <li>
+            Padding - Clears an area around the content. The padding is
+            transparent
+          </li>
+          <li>
+            Border - A border that goes around the padding and content
+          </li>
+          <li>
+            Margin - Clears an area outside the border. The margin is
+            transparent
+          </li>
+        </ul>
       </div>
     </div>
   </body>

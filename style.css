@@ -26,10 +26,11 @@ body {
   padding-right: 30px;
   line-height: 1.5;
   font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
   overflow-y: scroll;
 }
 .content h3 {
-  text-align: center;
+  margin-left: 60px;
   margin-bottom: 15px;
 }
 
@@ -44,6 +45,10 @@ body {
   cursor: pointer;
 }
 
+.content_1 {
+  margin-left: 78px;
+}
+
 .dropdown-content {
   display: none;
   position: relative;
@@ -52,6 +57,7 @@ body {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   padding: 12px 16px;
   z-index: 1;
+  margin-left: 78px;
 }
 .dropdown-content a {
   display: block;
@@ -71,6 +77,7 @@ body {
   padding: 30px;
   line-height: 1.5;
   font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
 }
 
 .first-section ul li {
@@ -84,10 +91,14 @@ body {
 
 h3 {
   color: #30475e;
+  border: 1px solid;
+  margin-bottom: 5px;
+  width: 100px;
+  text-align: center;
 }
 
-ul {
-  margin-left: 100px;
+.semantic-tag-name {
+  margin-left: -45px;
 }
 
 a {
@@ -103,7 +114,8 @@ a:hover {
 }
 
 .second-section,
-.third-section {
+.third-section,
+.fourth-section {
   color: white;
   margin-left: 40px;
   background: #ba6b57;
@@ -111,6 +123,10 @@ a:hover {
   line-height: 1.5;
   font-family: "Barlow Condensed", sans-serif;
   margin-top: 20px;
+}
+
+.blog-tag-name {
+  margin-left: 50px;
 }
 
 .main {
